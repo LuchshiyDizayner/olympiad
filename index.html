@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="краткое описание страницы">
+    <title>Social network</title>
+    <link rel="preload" href="style.css" as="style" onload="this.rel='stylesheet'">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--Фавикон-->
+</head>
+
+<body>
+
+    <header id="header" class="header" role="banner">
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Профиль</a></li>
+                <li><a href="#">Сообщения</a></li>
+                <li><a href="#">Уведомления</a></li>
+            </ul>
+        </nav>
+        <div class="account">
+            <img class="ava" src="img/ava/Alsou.jpg" alt="ava">
+            <b>Анастасия</b>
+        </div>
+    </header>
+
+    <section class="wrapper">
+
+        <header>
+            <h1>Главная</h1>
+        </header>
+
+        <form id="create-post-form">
+            <img class="ava" src="img/ava/Alsou.jpg" alt="ava">
+            <div class="create-post">
+                <input type="text" placeholder="Что происходит?">
+                <div class="buttons">
+                    <div>
+                        <a href="#"> <img class="icon" src="img/icons/icon-1.svg" alt="icon-1"> </a>
+                        <a href="#"> <img class="icon" src="img/icons/icon-2.svg" alt="icon-2"> </a>
+                        <a href="#"> <img class="icon" src="img/icons/icon-3.svg" alt="icon-3"> </a>
+                        <a href="#"> <img class="icon" src="img/icons/icon-4.svg" alt="icon-4"> </a>
+                        <a href="#"> <img class="icon" src="img/icons/icon-5.svg" alt="icon-5"> </a>
+                    </div>
+                    <button type="button">
+                        Отправить
+                    </button>
+                </div>
+            </div>
+
+        </form>
+
+        <article>
+            <div>
+                <img class="ava" src="img/Posts/1_1.jpg" alt="ava">
+            </div>
+
+            <div>
+                <h2>Шейдлин</h2>
+                <p>Приветик, это я</p>
+                <img class="pic1_1" src="img/Posts/1_1.jpg" alt="picture">
+                <img class="pic1_2" src="img/Posts/1_2.jpg" alt="picture">
+                <div class="post-buttons">
+                    <div>
+                        <img src="img/icons/like.svg" alt="like">
+                        <p>1k</p>
+                    </div>
+                    <div>
+                        <img src="img/icons/repost.svg" alt="repost">
+                        <p>225</p>
+                    </div>
+                    <div>
+                        <img src="img/icons/comment.svg" alt="comment">
+                        <p>789</p>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+    </section>
+
+    <section class="recomendations">
+        <h2>
+            Рекомендации
+        </h2>
+        <div class="rec-item">
+            <img class="ava" src="img/Posts/1_1.jpg" alt="ava">
+            <b>Lavazza Group</b>
+        </div>
+        <div class="rec-item">
+            <img class="ava" src="img/ava/Brat.jpg" alt="ava">
+            <b>Братистольф</b>
+        </div>
+        <div class="rec-item">
+            <img class="ava" src="img/ava/navalnyj.jpg" alt="ava">
+            <b>Навальный</b>
+        </div>
+    </section>
+
+
+
+
+
+</body>
+
+</html>
